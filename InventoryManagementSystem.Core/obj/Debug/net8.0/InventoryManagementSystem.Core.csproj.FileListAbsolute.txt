@@ -1,0 +1,14 @@
+C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\net8.0\InventoryManagementSystem.Core.deps.json
+C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\net8.0\InventoryManagementSystem.Core.runtimeconfig.json
+C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\net8.0\InventoryManagementSystem.Core.dll
+C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Core\bin\Debug\net8.0\InventoryManagementSystem.Core.pdb
+C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\net8.0\InventoryManagementSystem.Core.csproj.AssemblyReference.cache
+C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\net8.0\InventoryManagementSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\net8.0\InventoryManagementSystem.Core.AssemblyInfoInputs.cache
+C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\net8.0\InventoryManagementSystem.Core.AssemblyInfo.cs
+C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\net8.0\InventoryManagementSystem.Core.csproj.CoreCompileInputs.cache
+C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\net8.0\InventoryManagementSystem.Core.dll
+C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\net8.0\refint\InventoryManagementSystem.Core.dll
+C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\net8.0\InventoryManagementSystem.Core.pdb
+C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\net8.0\InventoryManagementSystem.Core.genruntimeconfig.cache
+C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Core\obj\Debug\net8.0\ref\InventoryManagementSystem.Core.dll

@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryManagementSystem.Core\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\BaseEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryManagementSystem.Core\\Entities\\BaseEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryManagementSystem.Core\\Entities\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\Order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryManagementSystem.Core\\Entities\\Order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Web,\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryManagementSystem.Web,\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryManagementSystem.Core\\Entities\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Web,\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryManagementSystem.Web,\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryManagementSystem.Core\\Entities\\Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryManagementSystem\\InventoryManagementSystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\OrderItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryManagementSystem.Core\\Entities\\OrderItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\Serial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryManagementSystem.Core\\Entities\\Serial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem.Core\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\AppDbContext.cs",
+              "RelativeToolTip": "InventoryManagementSystem.Core\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T08:07:21.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem.Core\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "InventoryManagementSystem.Core\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T07:42:19.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem.Core\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\Product.cs",
+              "RelativeToolTip": "InventoryManagementSystem.Core\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T06:12:41.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem.Core\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\Order.cs",
+              "RelativeToolTip": "InventoryManagementSystem.Core\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T06:12:50.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Web,\\appsettings.json",
+              "RelativeDocumentMoniker": "InventoryManagementSystem.Web,\\appsettings.json",
+              "ToolTip": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Web,\\appsettings.json",
+              "RelativeToolTip": "InventoryManagementSystem.Web,\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T07:23:01.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem.Core\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\User.cs",
+              "RelativeToolTip": "InventoryManagementSystem.Core\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T06:12:28.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Web,\\Program.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem.Web,\\Program.cs",
+              "ToolTip": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Web,\\Program.cs",
+              "RelativeToolTip": "InventoryManagementSystem.Web,\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T07:15:15.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem.Core\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\Category.cs",
+              "RelativeToolTip": "InventoryManagementSystem.Core\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T06:12:52.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InventoryManagementSystem.csproj",
+              "DocumentMoniker": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem.csproj",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\InventoryManagementSystem.csproj",
+              "ToolTip": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem.csproj",
+              "RelativeToolTip": "InventoryManagementSystem\\InventoryManagementSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-22T07:10:46.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem.Core\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "InventoryManagementSystem.Core\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T06:12:49.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Serial.cs",
+              "DocumentMoniker": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\Serial.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem.Core\\Entities\\Serial.cs",
+              "ToolTip": "C:\\Users\\CKOFSGB\\Source\\Repos\\InventoryManagementSystem\\InventoryManagementSystem.Core\\Entities\\Serial.cs",
+              "RelativeToolTip": "InventoryManagementSystem.Core\\Entities\\Serial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T06:12:36.386Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
