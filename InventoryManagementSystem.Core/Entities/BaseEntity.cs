@@ -8,14 +8,14 @@ namespace InventoryManagementSystem.Core.Entities
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Key]
         public int Id { get; set; }
-        public virtual DateTime CreatedOn { get; set; } = DateTime.Now;
+        public virtual DateTime? CreatedOn { get; set; } 
         public virtual DateTime? UpdatedOn { get; set; }
         public virtual DateTime? DeletedOn { get; set; }
         [StringLength(16)]
-        public string CreatedBy { get; set; }
+        public string? CreatedBy { get; set; }
         [StringLength(16)]
-        public string UpdatedBy { get; set; }
+        public string? UpdatedBy { get; set; }
         [StringLength(16)]
-        public string DeletedBy { get; set; }
+        public string? DeletedBy { get; set; }
     }
 }

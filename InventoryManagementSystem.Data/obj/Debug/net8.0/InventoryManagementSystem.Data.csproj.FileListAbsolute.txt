@@ -9,6 +9,7 @@ C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSyste
 C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Data\obj\Debug\net8.0\InventoryManagementSystem.Data.AssemblyInfoInputs.cache
 C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Data\obj\Debug\net8.0\InventoryManagementSystem.Data.AssemblyInfo.cs
 C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Data\obj\Debug\net8.0\InventoryManagementSystem.Data.csproj.CoreCompileInputs.cache
+C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Data\obj\Debug\net8.0\InventoryManagementSystem.Data.sourcelink.json
 C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Data\obj\Debug\net8.0\Inventor.9D52E534.Up2Date
 C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Data\obj\Debug\net8.0\InventoryManagementSystem.Data.dll
 C:\Users\CKOFSGB\Source\Repos\InventoryManagementSystem\InventoryManagementSystem.Data\obj\Debug\net8.0\refint\InventoryManagementSystem.Data.dll

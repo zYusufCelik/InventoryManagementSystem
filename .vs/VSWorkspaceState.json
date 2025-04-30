@@ -1,11 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\InventoryManagementSystem",
-    "\\InventoryManagementSystem.Business",
-    "\\InventoryManagementSystem.Data",
-    "\\InventoryManagementSystem.Web"
+    ""
   ],
-  "SelectedNode": "\\InventoryManagementSystem.Core",
   "PreviewInSolutionExplorer": false
 }
