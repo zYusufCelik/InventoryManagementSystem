@@ -7,60 +7,67 @@ namespace InventoryManagementSystem.Data.Products
     {
         private readonly AppDbContext _context;
         private readonly IMapper _mapper;
-        public ProductService(AppDbContext context, IMapper mapper)
+        
+
+
+        public ProductService(AppDbContext context,IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
 
-        //public List<Product> GetAll()
-        //{
-        //    var products = _context.Products.ToList();
-                
-
-        //    if (products is not null)
-        //    {
-        //        return products;
-        //    }
-
-        //    return null;
-
-        //}
-        public List<ProductWithCategoryDto> GetAllProductsWithCategory()
+        public List<Product>? GetAll()
         {
-            List<ProductWithCategoryDto> pwc = new List<ProductWithCategoryDto>();
+            var products = _context.Products.ToList();
 
-            var result = _context.Products
-            .Join(
-                _context.Categories, // İkinci tablo
-                product => product.CategoryId, // Product tablosundaki bağlanacak sütun
-                category => category.Id,    // Category tablosundaki bağlanacak sütun
-                (product, category) => new   // Sonuç olarak alınacak veri şekli
-                {
-                    Id = product.Id,
-                    CategoryId = category.Id,
-                    CategoryName= category.CategoryName,
-                    Name = product.Name,
-                    StockQuantity = product.StockQuantity,
-                    Description = product.Description
-                })
-            .ToList();
 
-            var yusuf = _mapper.Map<List<ProductWithCategoryDto>>(result);
-
-            //var products = _context.Products.ToList(); // EF'den veri çekiliyor
-            //var productDtos = _mapper.Map<List<ProductDto>>(products); // Liste DTO'ya dönüştürülüyor
-            //return productDtos;
-
-            return yusuf;
-
-            //var product = _context.Products.FirstOrDefault(p => p.Id == id);
-            //var categories = _context.Categories.FirstOrDefault(p => p.Id == product.CategoryId);
-
-           // return _context.Products.FirstOrDefault(p => p.Id == id);
-
+            if (products is not null)
+            {
+                return products;
+            }
+            
+            return null;
 
         }
+        public List<ProductWithCategoryDto> AllProductsWithCategory()
+        {
+            
+            
+                List<ProductWithCategoryDto> pwc = new List<ProductWithCategoryDto>();
+
+                var result = _context.Products
+                .Join(
+                    _context.Categories, // İkinci tablo
+                    product => product.CategoryId, // Product tablosundaki bağlanacak sütun
+                    category => category.Id,    // Category tablosundaki bağlanacak sütun
+                    (product, category) => new   // Sonuç olarak alınacak veri şekli
+                    {
+                        Id = product.Id,
+                        CategoryId = category.Id,
+                        CategoryName = category.CategoryName,
+                        Name = product.Name,
+                        StockQuantity = product.StockQuantity,
+                        Description = product.Description
+                    })
+                .ToList();
+
+                var yusuf = _mapper.Map<List<ProductWithCategoryDto>>(result);
+
+                var products = _context.Products.ToList(); // EF'den veri çekiliyor
+                var productDtos = _mapper.Map<List<ProductWithCategoryDto>>(products); // Liste DTO'ya dönüştürülüyor
+                return productDtos;
+
+                
+            }
+        
+
+        //    var product = _context.Products.FirstOrDefault(p => p.Id == id);
+        //var categories = _context.Categories.FirstOrDefault(p => p.Id == product.CategoryId);
+
+        //    return _context.Products.FirstOrDefault(p => p.Id == id);
+
+
+
         public void Add(Product product)
         {
             _context.Products.Add(product);
@@ -77,6 +84,19 @@ namespace InventoryManagementSystem.Data.Products
             _context.Remove(id);
         }
 
-       
+        string? IProductService.GetAll()    
+        {
+            throw new NotImplementedException();
+        }
+
+        public string? ProductWithCategory()
+        {
+            throw new NotImplementedException();
+        }
+
+        public object GetProductById(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

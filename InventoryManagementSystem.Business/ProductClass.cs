@@ -13,7 +13,7 @@ public class ProductClass
     {
         List<ProductWithCategoryDto> pwc = new List<ProductWithCategoryDto>();
 
-        var response = _productService.GetAllProductsWithCategory();
+        var response = _productService.AllProductsWithCategory();
         if (response != null)
         {
             return response;

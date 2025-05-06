@@ -12,14 +12,15 @@ namespace InventoryManagementSystem.Data.Categories
         }
         public List<Category> GetAllCategories()
         {
-            var categories = _context.Categories.ToList();
+            return _context.Categories.ToList();
+            //var categories = _context.Categories.ToList();
 
-            if(categories is not null)
-            {
-                return categories;
-            }
+            //if(categories is not null)
+            //{
+            //    return categories;
+            //}
 
-            return null;
+            //return null;
 
         }
     }
