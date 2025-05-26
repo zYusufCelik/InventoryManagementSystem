@@ -25,22 +25,24 @@ namespace InventoryManagementSystem.Data.Products
             {
                 return products;
             }
-            
+
             return null;
+
+
 
         }
         public List<ProductWithCategoryDto> AllProductsWithCategory()
         {
             
             
-                List<ProductWithCategoryDto> pwc = new List<ProductWithCategoryDto>();
+              //  List<ProductWithCategoryDto> pwc = new List<ProductWithCategoryDto>();
 
                 var result = _context.Products
                 .Join(
                     _context.Categories, // İkinci tablo
                     product => product.CategoryId, // Product tablosundaki bağlanacak sütun
                     category => category.Id,    // Category tablosundaki bağlanacak sütun
-                    (product, category) => new   // Sonuç olarak alınacak veri şekli
+                    (product, category) => new  ProductWithCategoryDto // Sonuç olarak alınacak veri şekli
                     {
                         Id = product.Id,
                         CategoryId = category.Id,
@@ -50,12 +52,14 @@ namespace InventoryManagementSystem.Data.Products
                         Description = product.Description
                     })
                 .ToList();
+            return result;
 
-                var yusuf = _mapper.Map<List<ProductWithCategoryDto>>(result);
+                //var yusuf = _mapper.Map<List<ProductWithCategoryDto>>(result);
 
-                var products = _context.Products.ToList(); // EF'den veri çekiliyor
-                var productDtos = _mapper.Map<List<ProductWithCategoryDto>>(products); // Liste DTO'ya dönüştürülüyor
-                return productDtos;
+               
+                //var products = _context.Products.ToList(); // EF'den veri çekiliyor
+                //var productDtos = _mapper.Map<List<ProductWithCategoryDto>>(products); // Liste DTO'ya dönüştürülüyor
+                //return yusuf;
 
                 
             }
@@ -74,6 +78,10 @@ namespace InventoryManagementSystem.Data.Products
             _context.SaveChanges();
 
         }
+        public Product GetProductById(int id)
+        {
+            return _context.Products.FirstOrDefault(p => p.Id == id);
+        }
         public void Update(Product product)
         {
             _context.Products.Update(product);
@@ -81,20 +89,16 @@ namespace InventoryManagementSystem.Data.Products
         }
         public void Delete(int id)
         {
-            _context.Remove(id);
-        }
+            var product = _context.Products.FirstOrDefault(p => p.Id == id);
+            if (product != null)
+            {
+                _context.Products.Remove(product);
+                _context.SaveChanges();
 
-        string? IProductService.GetAll()    
-        {
-            throw new NotImplementedException();
+            }
         }
 
         public string? ProductWithCategory()
-        {
-            throw new NotImplementedException();
-        }
-
-        public object GetProductById(int id)
         {
             throw new NotImplementedException();
         }

@@ -10,9 +10,10 @@ namespace InventoryManagementSystem.Data.Products
         void Add(Product product);
         void Delete(int id);
         void Update(Product product);
-        string? GetAll();
+        List<Product> GetAll();
         string? ProductWithCategory();
-        object GetProductById(int id);
+        Product GetProductById(int id);
+        
     }
 }
 

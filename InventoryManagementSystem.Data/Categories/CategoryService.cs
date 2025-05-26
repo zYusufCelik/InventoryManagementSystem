@@ -13,6 +13,7 @@ namespace InventoryManagementSystem.Data.Categories
         public List<Category> GetAllCategories()
         {
             return _context.Categories.ToList();
+
             //var categories = _context.Categories.ToList();
 
             //if(categories is not null)
