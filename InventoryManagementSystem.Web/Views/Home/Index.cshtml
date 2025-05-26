@@ -1,8 +1,10 @@
-﻿@{
+@{
     ViewData["Title"] = "Home Page";
+    var role = ViewBag.Role as string;
 }
+<h2>Home Page</h2>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<ul>
+    <li><a asp-controller="Account" asp-action="Index" >Products</a></li>
+    <li><a asp-controller="Account" asp-action="Logout">Logout</a></li>
+</ul>
